@@ -293,12 +293,12 @@ hr {
   height: 150px;
   border: 4px solid white;
   -webkit-border-radius: 75px;
-  border-radius: 75px;
+  border-radius: 50%;
   overflow: hidden;
   margin-bottom: 20px;
 }
 .profile-image img {
-  width: 100%;
+  width: 110%;
 }
 
 h3.profile-title {
@@ -420,7 +420,7 @@ h3.profile-title {
 .banner-bg {
   padding: 260px 80px;
   position: relative;
-  background: url("../img/7.jpg");
+  background: url("../img/sunrise.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -482,8 +482,10 @@ h3.profile-title {
   position: relative;
 }
 .project-item img {
-  width: 100%;
+  padding: 20px;
+  width: 50%;
   display: block;
+  margin: 0 auto;
 }
 .project-item:hover .project-hover {
   top: 0;
